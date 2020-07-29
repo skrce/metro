@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: metro
+  security.user:
+    name: REPLACE_ME
+    password: REPLACE_ME
+
+server:
+  port: 9099
+
+http:
+  client:
+    mbta:
+      api-key: REPLACE_ME
