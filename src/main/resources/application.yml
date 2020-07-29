@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: metro
+  security.user:
+    roles: USER
+
+server:
+  port: 9099
+
+cache:
+  # in minutes
+  expiration: 60
